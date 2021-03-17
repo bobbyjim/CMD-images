@@ -6,6 +6,8 @@ of specific parameter classes for accessing specific types.
 There are utility scripts to list the contents of disk images, the BAM, 
 the Header, to inject and extract files, create disk images, and so on.
 
+Some test images are included, with some files injected.
+
 # Formats Handled
 - 1541 (D64)
 - 1571 (D71) (read only, I think)

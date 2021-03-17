@@ -1,5 +1,5 @@
 # CMD-images
-A generic engine in Perl for manipulating Commodore-style disk images, 
+A set of Perl packages for manipulating Commodore-style disk images, 
 and a set of specific parameter classes for accessing specific types.
 
 # Scripts

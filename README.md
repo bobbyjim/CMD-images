@@ -23,26 +23,27 @@ are re-purposed to store the image's structure so that it can be parsed.
 # Image Parameters
 Most (all?) Commodore disk images define their structure from these parameters:
 
-* filename
-* Label
-* ID
-* DOS Type
-* Header Track number
-* Header Label offset (in bytes)
-* Directory sector interleave
-* File sector interleave
-* BAM label offset (in bytes)
-* Zone 1 high track and sectors per track
-* Zone 2 high track and sectors per track
-* Zone 3 high track and sectors per track
-* Zone 4 high track and sectors per track
-* BAM sector interleave
-* BAM (re)location flag
-* BAM sector count
-* Tracks per BAM sector
-* Boot track #
+* (16 chars) Label
+* (2 chars) ID
+* (2 chars) DOS Type
+* (1 byte) Header Track number
+* (1 byte) Header Label offset (in bytes)
+* (1 byte) Directory sector interleave
+* (1 byte) File sector interleave
+* (1 byte) BAM label offset (in bytes)
+* (2 bytes) Zone 1 high track and sectors per track
+* (2 bytes) Zone 2 high track and sectors per track
+* (2 bytes) Zone 3 high track and sectors per track
+* (2 bytes) Zone 4 high track and sectors per track
+* (1 byte) BAM sector interleave
+* (1 byte) BAM (re)location flag
+* (1 byte) BAM sector count
+* (1 byte) Tracks per BAM sector
+* (1 byte) Boot track #
 
-Most of the above are literally individual bytes of data.  
+Some of these fields aren't even a full byte.  But that's okay, the structure
+above is theoretically **only 38 bytes**.
+
 The general solution, then, is to design an ENGINE and separate it from
 the PARAMETERS.
 

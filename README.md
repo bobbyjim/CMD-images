@@ -22,24 +22,24 @@ are re-purposed to store the image's structure so that it can be parsed.
 # Image Parameters
 Most (all?) Commodore disk images define their structure from these parameters:
 
-filename
-Label
-ID
-DOS Type
-Header Track number
-Header Label offset (in bytes)
-Directory sector interleave
-File sector interleave
-BAM label offset (in bytes)
-Zone 1 high track and sectors per track
-Zone 2 high track and sectors per track
-Zone 3 high track and sectors per track
-Zone 4 high track and sectors per track
-BAM sector interleave
-BAM (re)location flag
-BAM sector count
-Tracks per BAM sector
-Boot track #
+* filename
+* Label
+* ID
+* DOS Type
+* Header Track number
+* Header Label offset (in bytes)
+* Directory sector interleave
+* File sector interleave
+* BAM label offset (in bytes)
+* Zone 1 high track and sectors per track
+* Zone 2 high track and sectors per track
+* Zone 3 high track and sectors per track
+* Zone 4 high track and sectors per track
+* BAM sector interleave
+* BAM (re)location flag
+* BAM sector count
+* Tracks per BAM sector
+* Boot track #
 
 Most of the above are literally individual bytes of data.  
 The general solution, then, is to design an ENGINE and separate it from

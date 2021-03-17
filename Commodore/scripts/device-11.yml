@@ -1,0 +1,7 @@
+---
+'DID Label': 'test D80 image, AA'
+'DOS Label': 2A
+'Disk Type': D80
+'File Name': testimage.D80
+'Hdr Track': 39
+'Zone Data': '[39,29] [53,27] [64,25] [77,23] '

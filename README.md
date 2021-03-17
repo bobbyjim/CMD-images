@@ -11,7 +11,7 @@ Some test images are included, with some files injected.
 
 # Formats Handled
 - 1541 (D64)
-- 1571 (D71) (read only, I think)
+- 1571/2 (D71, D72)
 - 1581 (D81)
 - 2040 (D67)
 - 8050 (D80)

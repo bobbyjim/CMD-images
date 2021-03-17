@@ -3,8 +3,9 @@ A set of Perl packages for manipulating Commodore-style disk images,
 and a set of specific parameter classes for accessing specific types.
 
 # Scripts
-There are utility scripts to list the contents of disk images, the BAM, 
-the Header, to inject and extract files, create disk images, and so on.
+There are utility scripts that use these packages to list the contents 
+of disk images, the BAM, the Header, to inject and extract files, create 
+disk images, and so on.
 
 Some test images are included, with some files injected.
 

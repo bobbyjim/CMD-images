@@ -1,6 +1,6 @@
 # CMD-images
-A generic engine for manipulating Commodore-style disk images, and a set 
-of specific parameter classes for accessing specific types.
+A generic engine in Perl for manipulating Commodore-style disk images, 
+and a set of specific parameter classes for accessing specific types.
 
 # Scripts
 There are utility scripts to list the contents of disk images, the BAM, 

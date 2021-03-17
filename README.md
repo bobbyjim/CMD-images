@@ -6,12 +6,12 @@ There are utility scripts to list the contents of disk images, the BAM,
 the Header, to inject and extract files, create disk images, and so on.
 
 # Formats Handled
-1541 (D64)
-1571 (D71) (read only, I think)
-1581 (D81)
-2040 (D67)
-8050 (D80)
-8250 (D82)
+- 1541 (D64)
+- 1571 (D71) (read only, I think)
+- 1581 (D81)
+- 2040 (D67)
+- 8050 (D80)
+- 8250 (D82)
 
 I have classes for the 9030, 9060, and 9090 series, but I don't think they work right.
 

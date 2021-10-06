@@ -143,7 +143,7 @@ HDR sector.
    ######################################################
    sub doubleSided     { 1 }           # accounted for in X64 spec
    
-   sub format          { 'D80' }
+   sub format          { 'D82' }
    sub DOStype         { '2A' }                           # 1 byte
    sub HDR_DIR_track   { 0x27 }                           # 1 byte
    sub HDRlabelOffset  { 0x06 }                           # 1 byte
